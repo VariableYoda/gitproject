@@ -14,3 +14,5 @@ next step pursue
 
 git diff 
 git diff --cached
+
+shift+zz to go out of log to text editor
