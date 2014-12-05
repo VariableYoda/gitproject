@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Raffles Club Room</title>
+
+  <link rel="stylesheet" href="css/style.css" media="screen"  type="text/css" />
+  <link rel="stylesheet" href="css/jquery.range.css">
+
+
+   <script src="js/jquery.range.js"></script>
+    <script type="application/javascript" src="js/iscroll.js"></script>
+  <script type="application/javascript"src="js/jquery-1.11.1.min.js"></script> 
+  <script type="application/javascript" src="js/envison.js"></script>
+
+</head>
+
+<body >
+  <header id="HeaderDiv" ><h2 id="titleText"> Room 035: Raffles Club Room</h2> </header>
+  
+  <div id="wrapper">
+    <div id="scroller">
+
+      <ul id="menu">
+        <li class="button">
+          <a href="#" id="Balcony"><h1></h1> </a>
+        </li>
+        <li class="button">
+          <a href="#" id="Bedroom">  </a>
+        </li>
+        <li class="button" id="start">
+          <a href="#" id="Bathroom">  </a>
+        </li>
+        <li class="button" >
+          <a href="#"> Kitchen </a>
+        </li>
+        <li class="button">
+          <a href="#"> Living Room </a>
+        </li>
+        <li class="button">
+          <a href="#"> Garage </a>
+        </li>
+        <li class="button">
+          <a href="#"> Varenda </a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+
+  <div id="content">
+
+
+    <div  id="firstSectiontry">
+      <div class="innerSection imageHolder">
+        <img src="images/bulb.png" id="bulb"></img>
+      </div>
+ <div class="innerSection"> 
+
+<div class="container">
+  <div class="slider">
+  <input type = "range" min="0" max="100" />
+  <output id="rangevalue">Ceiling Chandelier</output>
+  </div>
+  </div>
+  
+</div>
+ <div class="innerSection"> 
+
+<div class="container">
+  <div class="slider">
+  <input type = "range" min="0" max="100" />
+  <output id="rangevalue1">Bed side Light</output>
+  </div>
+  </div>
+  
+</div>
+ <div class="innerSection"> 
+
+<div class="container">
+  <div class="slider">
+  <input type = "range" min="0" max="100" />
+  <label id="rangevalue2">Ambient cove light</label>
+  </div>
+  </div>
+  
+</div>
+  <div class="innerSection">
+
+   <label id="curtains" >Curtains close</label>
+    <div class="onoffswitch" id="firstSectionCheck">
+   
+
+
+      <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+      <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+      </label>
+    </div>
+  </div>
+
+</div>
+
+<div id="secondSectiontry">
+      <div class="innerSection imageHolder">
+        <img src="images/air.png" id="air"></img>
+      </div>
+<div class="innerSection">
+
+   <label id="curtains" >Clima on</label>
+
+    <div class="onoffswitch" id="secondSectionCheck">
+
+
+      <input type="checkbox" name="secondonoffswitch" class="secondonoffswitch-checkbox" id="secondmyonoffswitch" checked>
+      <label class="secondonoffswitch-label" for="secondmyonoffswitch">
+        <span class="secondonoffswitch-inner"></span>
+        <span class="secondonoffswitch-switch"></span>
+      </label>
+    </div>
+  </div>
+<div class="innerSection"> 
+       <label class="textboxlabel">Current Temperature</label><input type="text" class="awesome-text-box" value="24.5" />
+</div>
+
+ <div class="innerSection"> 
+
+<div class="container">
+  <div class="slider">
+  <input type = "range" min="0" max="100" onchange="rangevalue4.value=value"/>
+  <output id="rangevalue4">50</output>
+  </div>
+  </div>
+
+</div>
+
+
+ </div>
+
+
+ <div id="thirdSectiontry">
+      <div class="innerSection imageHolder">
+        <img src="images/lock.png" id="lock"></img>
+      </div>
+<div class="innerSection">
+
+    <label id="DND" >Do Not Disturb</label>
+    <div class="onoffswitch" id="thirdSectionCheck">
+
+      <input type="checkbox" name="thirdonoffswitch" class="thirdonoffswitch-checkbox" id="thirdmyonoffswitch" checked>
+      <label class="thirdonoffswitch-label" for="thirdmyonoffswitch">
+        <span class="thirdonoffswitch-inner"></span>
+        <span class="thirdonoffswitch-switch"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="innerSection">
+
+    <label id="Makeup" >Please Make up the room</label>
+
+    <div class="onoffswitch" id="fourthSectionCheck">
+     <input type="checkbox" name="fourthonoffswitch" class="fourthonoffswitch-checkbox" id="fourthmyonoffswitch" checked>
+      <label class="fourthonoffswitch-label" for="fourthmyonoffswitch">
+        <span class="fourthonoffswitch-inner"></span>
+        <span class="fourthonoffswitch-switch"></span>
+      </label>
+    </div>
+  </div>
+
+
+ </div>
+
+
+
+</div>
+
+
+
+
+</body>
+
+</html>
