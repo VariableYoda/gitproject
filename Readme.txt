@@ -8,3 +8,5 @@ git add filename
 git commit -m " message"
 git status
 git log 
+
+next step
