@@ -7,6 +7,10 @@ git add.
 git add filename
 git commit -m " message"
 git status
-git log 
+git log
+ 
 
-next step
+next step pursue
+
+git diff 
+git diff --cached
