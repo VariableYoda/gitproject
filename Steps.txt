@@ -1,1 +1,4 @@
 git steps will be updated later
+
+step 1 : git init<project>  project new repository
+step 2 : git add .  add all files to staging
