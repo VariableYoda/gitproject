@@ -54,7 +54,8 @@ then push --> git push origin master
 To edit in bash : http://stackoverflow.com/questions/2304372/how-do-you-copy-and-paste-into-git-bash
 useful : -http://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
 
-
+so far so good . this will be good 
+aamr
 
 
 
